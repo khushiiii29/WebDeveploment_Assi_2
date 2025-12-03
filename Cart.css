@@ -1,0 +1,144 @@
+.hero-section {
+    padding: 120px 80px;
+    background: #f0f6fc;
+    height: 60vh;
+}
+
+.hero-section h2 {
+    font-size: 55px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.hero-section .orange {
+    color: #ff4b00;
+}
+
+.product-container {
+    display: flex;
+    padding: 60px 80px;
+    background: #fff;
+}
+
+.product-container img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+    padding: 10px 60px;
+    margin-left: 60px;
+    flex: 1;
+}
+
+.product-info h1 {
+    padding: 60px 60px 60px 0;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.price {
+    float: right;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.desc {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+select {
+    padding: 15px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 15px 40px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.product-info p {
+    margin: 40px 0;
+}
+
+.product-info a {
+    color: grey;
+    font-size: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.product-info a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.recommend-section {
+    padding: 80px;
+    background: #fff;
+}
+
+.recommend-section h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.tag {
+    background: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-weight: 600;
+}
+
+.heart {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card-body {
+    padding: 15px 5px;
+}
+
+.card-body h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.price2 {
+    font-size: 18px;
+    font-weight: 600;
+    float: right;
+}

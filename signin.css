@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+.social-btn {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.social-btn img {
+    width: 18px;
+}
+
+.divider {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.divider span {
+    margin: 0 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.hint {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.signin-link {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #555;
+}
+
+.signin-link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}

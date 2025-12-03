@@ -1,0 +1,26 @@
+.hero-title {
+    background: #eef5fb;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px;
+}
+.hero-title h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero-title span {
+    color: #ff4500;
+}
+
+.section-title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.container {
+    padding: 0 120px;
+}
+
